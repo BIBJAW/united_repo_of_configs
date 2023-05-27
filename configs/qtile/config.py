@@ -99,6 +99,8 @@ win_launcher = "rofi -show window -show-icons"
 browser = "firefox"
 file_manager = "pcmanfm"
 screenshot = "flameshot full"
+screenshot_gui = "flameshot gui"
+lock = "betterlockscreen -l dimblur"
 
 #########################################
 ############# key Bindings ##############
@@ -257,6 +259,12 @@ keys = [
         desc="Rofi Power Menu",
     ),
     Key(
+        [mod, "shift"],
+        "x",
+        lazy.spawn(lock),
+        desc="Betterlockscreen",
+    ),
+    Key(
         [mod],
         "w",
         lazy.spawn(browser),
@@ -269,9 +277,15 @@ keys = [
         desc="Launch File Manager",
     ),
     Key(
-        [mod],
+        [],
         "Print",
         lazy.spawn(screenshot),
+        desc="Screenshot",
+    ),
+    Key(
+        [mod],
+        "Print",
+        lazy.spawn(screenshot_gui),
         desc="Screenshot",
     ),
 ]
