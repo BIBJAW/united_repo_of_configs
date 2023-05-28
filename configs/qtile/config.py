@@ -25,7 +25,7 @@ from colors import gruvbox
 
 @hook.subscribe.startup_once
 def autostart():
-    home = os.path.expanduser("~/.config/qtile/scripts/autostart.sh")
+    home = os.path.expanduser("~/.config/autostart/autostart.sh")
     subprocess.Popen([home])
 
 
