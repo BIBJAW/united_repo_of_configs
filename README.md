@@ -32,11 +32,51 @@
 ## Screenshots
 ### Qtile
 ![qtile](https://github.com/BIBJAW/united_repo_of_configs/blob/main/screenshots/qtile.png?raw=true)
+
+## Keybindings For Qtile
+
+| Keybindings  |        Actions         | 
+| :---:        |        :----:          |
+| mod+d        | rofi drun              |
+| alt+d        | rofi rum               |
+|alt+d         | rofi windows           |
+|mod+Shift+e   |Power Menu              |
+| mod+return   | Kitty terminal     |
+|mod+Shift+q   | Kills a window         |
+|mod+ctrl         | resize window(vim keys)|
+|mod+f         | toggle fullscreen      |
+|mod+space     | floating window        |
+| mod+w        | firefox                |
+|mod+n         | pcmanfm                |
 ---
 ### i3-wm and polybar
 ![i3_poly](https://github.com/BIBJAW/united_repo_of_configs/blob/main/screenshots/i3.png?raw=true)
 
 ![poly](https://github.com/BIBJAW/united_repo_of_configs/blob/main/screenshots/polybar.png?raw=true)
+
+
+## Keybindings For i3
+
+| Keybindings  |        Actions         | 
+| :---:        |        :----:          |
+| mod+t        | Tiling Mode            |
+| mod+e        | Tab Mode               |
+| mod+s        | Stacking Mode          |
+| mod+d        | rofi drun              |
+| alt+d        | rofi rum               |
+|alt+d         | rofi windows           |
+|mod+Shift+e   |Power Menu              |
+| mod+return   | Kitty terminal     |
+|mod+Shift+q   | Kills a window         |
+|mod+r         | resize window(vim keys)|
+|mod+z         | horizontal             |
+|mod+a         | vertical               |
+|mod+f         | toggle fullscreen      |
+|mod+space     | floating window        |
+|mod+q         | focus floating window  |
+|mod+p         | focus parent           |
+| mod+w        | firefox                |
+|mod+n         | pcmanfm                |
 --- 
 ### Neovim
 ![nvim](https://github.com/BIBJAW/united_repo_of_configs/blob/main/screenshots/codex.png?raw=true)
