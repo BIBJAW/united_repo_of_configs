@@ -264,18 +264,12 @@ exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 #exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 exec --no-startup-id dex --autostart --environment i3
 
-# set wallpaper
-exec nitrogen --restore
+# autostart
+exec --no-startup-id ~/.config/autostart/autostart.sh
 
 # Compositor
 exec_always picom
 
-# disable power saving (for example if using xscreensaver)
-exec_always xset -dpms
-
-# Xrandr Commands
-exec_always xrandr -s 1920x1080 -r 75
-exec_always xset s off
 
 # Polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
