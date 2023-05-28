@@ -13,9 +13,8 @@
 - **File Manager:** pcmanfm
 - **Fonts:** roboto-condensed, font-awesome, monospace, jetbrainsmono, jetbrainsmono nerd fonts
 - **Policykit:** mate-polkit
-
+--- 
 ## Apps in each workspace
-## **Apps assigned to Workspaces**
 | Workspace Number | Assigned Apps                                             |
 | :-:              | :-:                                                       |
 | 1                | kitty                                                 |
@@ -27,8 +26,8 @@
 | 7                | LibreOffice,Marktext,Atril                                |
 | 8                | Lxappearance,Stacer,Transmission,Yad,Gnome-Disks,Nitrogen |
 
+---
 
-## Screenshots
 ## Screenshots
 ### Qtile
 ![qtile](https://github.com/BIBJAW/united_repo_of_configs/blob/main/screenshots/qtile.png?raw=true)
