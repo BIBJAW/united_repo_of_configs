@@ -4,7 +4,7 @@
 ## Package List
 ### **Descriptions:** 
 - **OS:** Arch Linux
-- **Window Manager:** i3
+- **Window Manager:** i3,qtile
 - **Bar:** polybar
 - **Launcher:** rofi
 - **Compositor:** picom-pijulius
