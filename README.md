@@ -1,4 +1,5 @@
 # My workstation configs 
+- The colorschemes is a combmination of both gruvbox and gruvbox-material
 ## Screenshots
 ### Qtile
 ![qtile](https://github.com/BIBJAW/united_repo_of_configs/blob/main/screenshots/qtile.png?raw=true)
