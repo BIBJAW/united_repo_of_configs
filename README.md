@@ -1,5 +1,19 @@
 # My workstation configs 
 - The colorscheme is a combmination of both gruvbox and gruvbox-material in my configs
+
+## Package List
+### **Descriptions:** 
+- **OS:** Arch Linux
+- **Window Manager:** i3
+- **Bar:** polybar
+- **Launcher:** rofi
+- **Compositor:** picom-pijulius
+- **Terminal:** Kitty
+- **Lockscreen:** Betterlockscreen
+- **File Manager:** pcmanfm
+- **Fonts:** roboto-condensed, font-awesome, monospace, jetbrainsmono, jetbrainsmono nerd fonts
+- **Policykit:** mate-polkit
+
 ## Apps in each workspace
 ## **Apps assigned to Workspaces**
 | Workspace Number | Assigned Apps                                             |
