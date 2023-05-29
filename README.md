@@ -11,7 +11,7 @@
 - **Terminal:** Kitty
 - **Lockscreen:** Betterlockscreen
 - **File Manager:** pcmanfm
-- **Fonts:** roboto-condensed, font-awesome, monospace, jetbrainsmono, jetbrainsmono nerd fonts
+- **Fonts:** roboto-condensed (for rofi and polybar), font-awesome (for rofi and polybar), monospace, jetbrainsmono, jetbrainsmono nerd fonts ( for qtile bar), firacode nerd font (for terminal)
 - **Policykit:** mate-polkit
 --- 
 ## Apps in each workspace
